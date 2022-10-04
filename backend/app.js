@@ -6,7 +6,12 @@ const app = express();
 dotenv.config({ path: "./config.env" });
 require("./db/conn");
 
+app.use(express.json())  // converting josn into object
+
 const User = require('./model/userShema')
+
+// we link the router files to make our route easy
+app.use(require('./router/auth'))
 
 const { PORT } = process.env;
 
@@ -17,9 +22,9 @@ const middleware = (_req, _res, _next) => {
 
 // Basic routes
 
-app.get("/", (_req, res) => {
-  res.send("Hello World from the server");
-});
+// app.get("/", (_req, res) => {
+//   res.send("Hello World from the server from app.js");
+// });
 app.get("/about", middleware, (_req, res) => {
   console.log("Hello my About");
   res.send("Hello World from the About");

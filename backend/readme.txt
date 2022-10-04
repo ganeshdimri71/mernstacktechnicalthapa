@@ -26,11 +26,15 @@ create username and password and add ipaddress
 finish and close
 Allow all ipaddress
 
+Postman
+go to headers and write Content-Type : application/json
+
 
 ba60396 : eslint setup for backend and frontend
 3864517 : added simple routes
 1f19e8e : middleware
 2dfb163 : settingup backend
 dfb8eaf : securing the important constants
+f7b537d : creating schema of user
  
 
