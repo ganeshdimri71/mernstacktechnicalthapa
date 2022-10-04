@@ -14,6 +14,9 @@ Step 12:  "lint": "eslint .*",
 step 13:  "lint-fix": "eslint  --fix"
 step 14: npm run lint
 step 15:  npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
+git push https://github.com/ganeshdimri71/mernstacktechnicalthapa.git 
 
 ba60396 : eslint setup for backend and frontend
+3864517 : added simple routes
+ 
 
