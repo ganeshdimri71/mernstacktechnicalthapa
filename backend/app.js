@@ -6,15 +6,15 @@ const app = express();
 dotenv.config({ path: "./config.env" });
 require("./db/conn");
 
-app.use(express.json())  // converting josn into object
+app.use(express.json()); // converting josn into object
 
-const User = require('./model/userShema')
+const User = require("./model/userShema");
 
 // we link the router files to make our route easy
-app.use(require('./router/auth'))
+app.use(require("./router/auth"));
 
 const { PORT } = process.env;
-
+// middleware
 const middleware = (_req, _res, _next) => {
   console.log("Hello my middleware");
   _next();

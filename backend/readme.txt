@@ -36,5 +36,6 @@ ba60396 : eslint setup for backend and frontend
 2dfb163 : settingup backend
 dfb8eaf : securing the important constants
 f7b537d : creating schema of user
+40e6240 : using middleware and posting data
  
 
