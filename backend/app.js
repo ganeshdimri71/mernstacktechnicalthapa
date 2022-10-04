@@ -1,7 +1,18 @@
 const express = require("express");
+const mongoose = require("mongoose");
 
 const app = express();
 
+const DB = `mongodb+srv://ganeshdimri71:jttmPFs9675e8GW1@cluster0.8mznbfn.mongodb.net/mernstack?retryWrites=true&w=major`;
+
+mongoose
+  .connect(DB)
+  .then(() => {
+    console.log("Connection Successfull");
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 // middleware
 const middleware = (_req, _res, _next) => {
   console.log("Hello my middleware");

@@ -16,7 +16,19 @@ step 14: npm run lint
 step 15:  npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
 git push https://github.com/ganeshdimri71/mernstacktechnicalthapa.git 
 
+mongo db
+start free
+sign up
+login
+create new project
+build a new cluster inside a new project
+create username and password and add ipaddress
+finish and close
+Allow all ipaddress
+
+
 ba60396 : eslint setup for backend and frontend
 3864517 : added simple routes
+1f19e8e : middleware
  
 
