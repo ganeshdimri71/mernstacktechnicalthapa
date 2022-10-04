@@ -6,6 +6,8 @@ const app = express();
 dotenv.config({ path: "./config.env" });
 require("./db/conn");
 
+const User = require('./model/userShema')
+
 const { PORT } = process.env;
 
 const middleware = (_req, _res, _next) => {

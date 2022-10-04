@@ -31,5 +31,6 @@ ba60396 : eslint setup for backend and frontend
 3864517 : added simple routes
 1f19e8e : middleware
 2dfb163 : settingup backend
+dfb8eaf : securing the important constants
  
 
