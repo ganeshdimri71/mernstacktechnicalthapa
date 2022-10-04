@@ -1,0 +1,11 @@
+# frontend/node_modules/
+# frontend/public/
+# frontend/.gitignore
+# frontend/.prettierrc
+# frontend/package-lock.json
+# frontend/package.json
+# frontend/README.md
+# frontend/readme.txt
+# frontend/.eslintignore
+frontend/node_modules/
+frontend/public/
