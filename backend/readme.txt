@@ -47,5 +47,6 @@ e814114 : tackling commom error
 5971bc8 : Hashing the password part 1
 856bc4d : comparing the password
 c003e2a : generating jwt tokens
+107efbc : generating cookies
 
 
