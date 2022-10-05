@@ -45,5 +45,6 @@ e814114 : tackling commom error
 71bf203 : login route
 6f41206 : Hashing the password
 5971bc8 : Hashing the password part 1
+856bc4d : comparing the password
 
 
