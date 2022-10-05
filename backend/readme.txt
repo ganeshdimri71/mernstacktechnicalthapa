@@ -41,5 +41,6 @@ f7b537d : creating schema of user
 40e6240 : using middleware and posting data
 302782e : storing data to the database
 f88d1cc : storing the data with the help of async and await
+e814114 : tackling commom error
  
 
