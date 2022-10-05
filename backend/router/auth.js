@@ -31,7 +31,11 @@ router.post("/register", async (_req, _res) => {
       cpassword,
     });
 
-    await user.save();
+    // hashing password
+
+    const userRegister = await user.save();
+    console.log(`${user} register successfully`);
+    console.log(userRegister);
 
     _res.status(201).json({ message: "User Register Successfully" });
   } catch (err) {
@@ -54,7 +58,7 @@ router.post("/signin", async (req, res) => {
 
     console.log(userLogin);
 
-    if (!userLogin){
+    if (!userLogin) {
       res.json({ message: "user error" });
     } else {
       res.status(400).json({ message: "user Signin successfully" });
