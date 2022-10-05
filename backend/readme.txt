@@ -43,4 +43,7 @@ f7b537d : creating schema of user
 f88d1cc : storing the data with the help of async and await
 e814114 : tackling commom error
 71bf203 : login route
+6f41206 : Hashing the password
+5971bc8 : Hashing the password part 1
+
 

@@ -18,7 +18,7 @@
     "sourceType": "module"
   },
   "overrides": [
-     allowElseIf: true 
+     "allowElseIf": "true" 
   ],
   "plugins": ["prettier"],
   "rules": {
