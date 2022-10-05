@@ -14,6 +14,8 @@ Step 12:  "lint": "eslint .*",
 step 13:  "lint-fix": "eslint  --fix"
 step 14: npm run lint
 step 15:  npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
+step 16:  npm install --save-dev --save-exact prettier
+
 git push https://github.com/ganeshdimri71/mernstacktechnicalthapa.git 
 
 mongo db
@@ -38,5 +40,6 @@ dfb8eaf : securing the important constants
 f7b537d : creating schema of user
 40e6240 : using middleware and posting data
 302782e : storing data to the database
+f88d1cc : storing the data with the help of async and await
  
 

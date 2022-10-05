@@ -4,10 +4,7 @@
     "es2021": true,
     "jest": true
   },
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["airbnb", "plugin:prettier/recommended"],
   "settings": {
     "react": {
       "version": "detect"
@@ -23,6 +20,7 @@
   "overrides": [],
   "plugins": ["prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "error": [
       "error",
       "double",

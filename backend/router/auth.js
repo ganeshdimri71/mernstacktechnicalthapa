@@ -6,7 +6,7 @@ require("../db/conn");
 const User = require("../model/userShema");
 
 router.get("/", (_req, _res) => {
-  res.send("Hello World from the server router.js");
+  _res.send("Hello World from the server router.js");
 });
 
 // async and await
