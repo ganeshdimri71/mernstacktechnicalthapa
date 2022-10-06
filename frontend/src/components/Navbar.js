@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import {NavLink} from 'react-router-dom'
 /* eslint-enable */
 
 function Navbar() {
@@ -8,9 +9,9 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" to="/">
           Navbar
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,33 +27,33 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavLink className="nav-link active" aria-current="page" to="/">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/about">
                 About
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/contact">
                 Contact
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/login">
                 Login
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="nav-link" href="#">
+              <NavLink className="nav-link" to="/signup">
                 Registration
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

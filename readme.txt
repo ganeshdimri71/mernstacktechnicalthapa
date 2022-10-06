@@ -50,5 +50,6 @@ c003e2a : generating jwt tokens
 107efbc : generating cookies
 107d31e : last commit of today
 4c26f29 : aslint-setup-for-react
+a2bf97c : navbar
 
 

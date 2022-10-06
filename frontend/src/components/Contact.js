@@ -2,13 +2,13 @@
 import React from "react";
 /* eslint-enable */
 
-function Home() {
+function Contact() {
   return (
     <div>
       <p>Welcome</p>
-      <h1>We are the Mern Developer</h1>
+      <h1>We are the Contact Developer</h1>
     </div>
   );
 }
 
-export default Home;
+export default Contact;
