@@ -1,7 +1,10 @@
+/* eslint-disable */
 import React from "react";
+import Navbar from "./components/Navbar";
+/* eslint-enable */
 
 function App() {
-  return <div>App</div>;
+  return <Navbar />;
 }
 
 export default App;
