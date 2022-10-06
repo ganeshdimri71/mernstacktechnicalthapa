@@ -22,9 +22,11 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "overrides": [],
-  "plugins": ["react", "prettier"],
+   "overrides": [],
+  "plugins": ["react","jsx-a11y",
+  "import", "prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "error": [
       "error",
       "double",
@@ -33,6 +35,7 @@
       }
     ],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-else-return": 0
   }
 }
